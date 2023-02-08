@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(161.7deg, #f5fcfe 0%, #fffcf4 100%);
+    width: 100%;
+    padding-top: 55px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.container {
+    width: 350px;
+    height: 583px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 30px 20px 0 20px;
+}
+.header {
+}
+.header__logo {
+    width: 107px;
+    height: 25px;
+    margin: 0 auto 30px auto;
+}
+.header__text {
+    width: 186px;
+    height: 28px;
+    margin: 0 auto 30px auto;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2b689b;
+    line-height: 28px;
+}
+.main {
+}
+.form__cont {
+    width: 310px;
+    height: 33px;
+    margin: 0 auto 30px auto;
+    border-bottom: 1px solid rgba(43, 104, 155, 0.7);
+    display: inline-block;
+    position: relative;
+}
+
+.star {
+    margin-left: 7px;
+    color: rgba(255, 182, 193, 1);
+}
+
+.form__string-vector {
+    width: 20px;
+    height: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.form__email-input,
+.form__string-input,
+.form__pass-input,
+.form__confirm-input {
+    height: 21px;
+    border: none;
+    outline: none;
+}
+
+.form__email-input::placeholder,
+.form__string-input::placeholder,
+.form__pass-input::placeholder,
+.form__confirm-input::placeholder {
+    color: rgba(107, 149, 185, 1);
+    font-size: 15px !important;
+    width: 300px;
+}
+
+.form__prompt {
+    margin-bottom: 30px;
+}
+
+.form__prompt-text {
+    color: rgba(43, 104, 155, 1);
+}
+
+.form__btn-cont {
+    width: 242px;
+    height: 55px;
+    background-color: rgba(255, 217, 112, 1);
+    border-radius: 5px;
+    margin: 0 auto 30px auto;
+}
+
+.form__btn-label {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 18px 0 0 30px;
+    cursor: pointer;
+}
+
+.form__btn-btn {
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255, 217, 112, 1);
+    width: 138px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0e406a;
+}
+
+.form__btn-arrow {
+    cursor: pointer;
+}
+
+.footer {
+    width: 220px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.footer__reg,
+.footer__auth {
+    height: 21px;
+}
+
+.footer__reg {
+    width: 158px;
+}
+
+.footer__auth {
+    margin-left: 15px;
+    width: 45px;
+}
+.footer__reg button,
+.footer__auth button {
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    color: #2b689b;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.footer__reg button:hover,
+.footer__auth button:hover {
+    color: #3d7fb7;
+}
+
+.error {
+    border-bottom-color: #ffb6c1 !important;
+}
+
+#error-phrase, #error-confirm, #error-pass {
+    width: 100%;
+    padding-left: 7px;
+    font-size: 13px;
+    color: #f13f58;
+    position: absolute;
+    bottom: -20px;
+}
+
+@media screen and (min-width: 415px) {
+    body {
+        background: linear-gradient(124.93deg, #f5fcfe 0%, #fffcf4 99.63%);
+        max-width: 1600px;
+        height: 1333px;
+        padding-top: 151px;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+
+    .container {
+        width: 500px;
+        height: 762px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 40px 50px 0 50px;
+    }
+
+    .header__logo {
+        width: 128px;
+        height: 30px;
+        margin: 0 auto 40px auto;
+    }
+    .header__text {
+        width: 261px;
+        height: 38px;
+        margin: 0 auto 50px auto;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .form__cont {
+        width: 400px;
+        height: 36px;
+        margin: 0 auto 50px auto;
+        border-bottom: 1px solid rgba(43, 104, 155, 0.7);
+        display: inline-block;
+    }
+
+    .star {
+        margin-left: 11px;
+        font-size: 15px;
+    }
+
+    .form__email-input,
+    .form__string-input,
+    .form__pass-input,
+    .form__confirm-input {
+        width: 300px;
+        height: 25px;
+        line-height: 25px;
+    }
+
+    .form__email-input::placeholder,
+    .form__string-input::placeholder,
+    .form__pass-input::placeholder,
+    .form__confirm-input::placeholder {
+        font-size: 18px !important;
+        width: 200px;
+    }
+
+    .form__prompt {
+        margin-bottom: 30px;
+    }
+
+    .form__btn-cont {
+        width: 270px;
+        height: 61px;
+    }
+
+    .form__btn-label {
+        padding: 20px 0 0 40px;
+    }
+
+    .form__btn-btn {
+        width: 145px;
+        height: 21px;
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .form__btn-arrow {
+    }
+
+    .footer {
+        width: 245px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .footer__reg,
+    .footer__auth {
+        height: 21px;
+    }
+
+    .footer__reg {
+        width: 160px;
+    }
+
+    .footer__auth {
+        margin-left: 35px;
+        width: 40px;
+    }
+    .footer__reg button,
+    .footer__auth button {
+        font-size: 16px;
+    }
+}

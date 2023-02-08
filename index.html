@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reshenie Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__logo">
+                <img src="g10.png" alt="Postmost">
+            </div>
+            <div class="header__text">Изменение пароля</div>
+        </header>
+        <main class="main">
+            <form>
+                <div class="form__email form__cont">
+                    <span class="form__email-star star">*</span>
+                    <input type="email" placeholder="Email / Логин" class="form__email-input">
+                </div>
+                <div class="form__test-string form__cont">
+                    <span class="form__string-star star">*</span>
+                    <input type="text" placeholder="Контрольная строка" class="form__string-input">
+                </div>
+                <div class="form__pass form__cont">
+                    <span class="form__string-star star">*</span>
+                    <input type="password" placeholder="Новый пароль" class="form__pass-input">
+                    <span class="form__string-vector">
+                        <img src="Vector.png" alt="">
+                    </span>
+                </div>
+                <div class="form__confirm form__cont">
+                    <span class="form__string-star star">*</span>
+                    <input type="password" placeholder="Подтверждение пароля" class="form__confirm-input">
+                </div>
+                <div class="form__prompt">
+                    <span class="form__prompt-star star">*</span>
+                    <span class="form__prompt-text">Обязательные поля</span>
+                </div>
+
+                <div class="form__btn-cont">
+                    <label for="btn" class="form__btn-label">
+                        <button class="form__btn-btn" id="btn">Изменить пароль</button>
+                        <img src="Arrow1.png" alt="Arrow" class="form__btn-arrow">
+                    </label>
+                </div>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__reg">
+                <button>Зарегистрироваться</button>
+            </div>
+            <div class="footer__auth">
+                <button>Войти</button>
+            </div>
+        </footer>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
